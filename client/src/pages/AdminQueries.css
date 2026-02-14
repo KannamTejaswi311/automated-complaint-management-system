@@ -1,0 +1,60 @@
+.queries-page {
+  max-width: 900px;
+  margin: auto;
+}
+
+.queries-page h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1e3a8a;
+}
+
+.queries-loading,
+.queries-error,
+.no-queries {
+  text-align: center;
+  margin-top: 40px;
+  color: #555;
+}
+
+.queries-error {
+  color: #b91c1c;
+}
+
+.queries-list {
+  display: grid;
+  gap: 20px;
+}
+
+.query-card {
+  background: white;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.query-message {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.query-reply {
+  font-size: 14px;
+  color: #166534;
+  background: #ecfdf5;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.query-card button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.query-card button:hover {
+  background: #1d4ed8;
+}

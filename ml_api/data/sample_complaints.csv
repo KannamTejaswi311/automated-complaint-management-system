@@ -1,0 +1,75 @@
+complaint_text,category,urgency
+No water in the hostel bathrooms for two days,Hostel,Urgent
+The bus did not arrive on time this morning,Transport,Normal
+The library books are outdated and torn,Library,Normal
+Mess food quality is getting worse day by day,Mess,Normal
+AC in hostel room not working properly,Hostel,Normal
+WiFi in the academic block is not working,IT,Urgent
+The projector in classroom 204 is broken,Academics,Normal
+The bus routes need to be updated for new students,Transport,No
+The mess staff is rude and unhygienic,Mess,Normal
+Fans in the hostel common room are not working,Hostel,Normal
+The attendance portal is not loading,IT,Normal
+The library is overcrowded during exams,Library,Normal
+The bus driver behaves rudely with students,Transport,Normal
+The classroom lights are flickering constantly,Academics,Normal
+The mess food caused stomach pain for many students,Mess,Critical
+Broken windows in hostel rooms are unsafe,Hostel,Critical
+The WiFi disconnects frequently in hostel area,IT,Normal
+The library computer systems are too slow,Library,Normal
+The college buses are overcrowded and uncomfortable,Transport,Normal
+Class timings are not displayed properly on notice board,Academics,Normal
+The hostel water cooler is leaking continuously,Hostel,Normal
+The mess menu lacks nutritional options,Mess,Normal
+The library is closed too early in the evening,Library,Normal
+Students are not informed about class cancellations,Academics,Normal
+The WiFi speed is too slow in computer lab,IT,Normal
+The transport schedule is not updated online,Transport,Normal
+Bedbugs in hostel beds causing health issues,Hostel,Critical
+Mess utensils are not washed properly,Mess,Urgent
+Books requested in library are not being purchased,Library,Normal
+Hostel bathrooms are not cleaned regularly,Hostel,Urgent
+Transport app is not showing live bus location,IT,Normal
+Teachers are not following timetable properly,Academics,Normal
+Mess servers are not wearing gloves or masks,Mess,Urgent
+Hostel gate security is not maintained properly,Hostel,Normal
+Bus drivers skip certain stops,Transport,Normal
+Library air conditioning is not working,Library,Normal
+Students facing login issues in ERP portal,IT,Normal
+Classroom projectors need urgent maintenance,Academics,Urgent
+Mess charges are deducted even during holidays,Mess,Normal
+Ceiling fans in hostel not working,Hostel,Normal
+Bus arrived 30 minutes late for morning trip,Transport,Normal
+Library chairs are broken,Library,Normal
+Unable to connect to college WiFi,IT,Normal
+Lab computers not working during practical sessions,Academics,Urgent
+Mess food is served cold,Mess,Normal
+Hostel lift is out of service for a week,Hostel,Urgent
+Bus conductors don’t verify ID cards,Transport,Normal
+Library study area is too noisy,Library,Normal
+ERP website crashes frequently during submissions,IT,Critical
+Professors not updating grades on time,Academics,Normal
+professors not updating marks on time,Academics,Normal
+the colour of the water is brownish in the hostel washrooms,Hostel,Normal
+the colour of water is brownish in washrooms,Hostel,Normal
+there is a fire in hostel coming frequently from switch boards,Hostel,High
+the fan in the hostel room 905 is not working since 3 days,Hostel,Normal
+the washrooms of room number 905 were not cleaned since 3 days,Hostel,Normal
+Washroom water leakage in hostel block A,Hostel,High
+there is a fire in the room(A01) present in ground floor nu,Hostel,High
+the washrooms in the hostel rooms were not getting cleaned properly,Hostel,Normal
+"the book titled""Data Structures and Algoritms"" is not available in the college library.So please place the required book as its very useful.",Library,Normal
+there is a fire in hostel room,Hostel,High
+there is a fire in the hostel,Hostel,High
+there is a fire in the hostel room,Hostel,High
+there is a fire in the hostel room,Hostel,High
+the food is not that good today,Mess,Normal
+"the book titled ""data structures""not available",Hostel,Normal
+"the book titled ""data structures""not available",Hostel,Normal
+"the book titled ""data structures""not available",Hostel,Normal
+"the book titled ""data structures""not available",Hostel,Normal
+"the book titled ""data structures""not available",Hostel,Normal
+"the book titled ""data structures""not available",Hostel,Normal
+there is a fire in the hostel room,Hostel,High
+I have seen some dust present the books of the college library.,Library,Normal
+I have seen some dust present the books of the college library.so please maintain the books clean as they are causing the dust alergy,Library,Normal

@@ -1,0 +1,67 @@
+/* GENERAL */
+.page-container {
+  padding: 30px;
+  background: #f4f6f8;
+  min-height: calc(100vh - 70px);
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* NAVBAR */
+.main-navbar {
+  background: #1e3c72;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* NAV BUTTONS */
+.nav-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-btn {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+/* Button colors */
+.nav-btn.primary {
+  background: #ffffff;
+  color: #1e3c72;
+}
+
+.nav-btn.primary:hover {
+  background: #e6e6e6;
+}
+
+.nav-btn.secondary {
+  background: #2a5298;
+  color: white;
+}
+
+.nav-btn.secondary:hover {
+  background: #1c3f7a;
+}
+
+.nav-btn.danger {
+  background: #e63946;
+  color: white;
+}
+
+.nav-btn.danger:hover {
+  background: #c62828;
+}

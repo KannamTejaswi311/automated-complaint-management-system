@@ -1,0 +1,18 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Environment files
+.env
+
+# Build folders
+build/
+dist/
+
+# OS
+.DS_Store

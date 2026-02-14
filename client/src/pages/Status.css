@@ -1,0 +1,118 @@
+.status-page {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.status-page h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1e3a8a;
+}
+
+.status-loading,
+.status-error,
+.no-complaints {
+  text-align: center;
+  margin-top: 40px;
+  color: #555;
+}
+
+.status-error {
+  color: #b91c1c;
+}
+
+/* Table */
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.status-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.status-table th {
+  background: #1e3a8a;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.status-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+.status-table tr:hover {
+  background: #f1f5f9;
+}
+
+/* Urgency badges */
+.urgency {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.urgency.critical {
+  background: #fecaca;
+  color: #991b1b;
+}
+
+.urgency.high {
+  background: #fde68a;
+  color: #92400e;
+}
+
+.urgency.urgent {
+  background: #fed7aa;
+  color: #9a3412;
+}
+
+.urgency.normal {
+  background: #bfdbfe;
+  color: #1e40af;
+}
+
+.urgency.low {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+/* Status badges */
+.status {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status.pending {
+  background: #fde68a;
+  color: #92400e;
+}
+
+.status.resolved {
+  background: #bbf7d0;
+  color: #166534;
+}
+
+/* Image */
+.status-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.no-image {
+  font-size: 12px;
+  color: #777;
+}

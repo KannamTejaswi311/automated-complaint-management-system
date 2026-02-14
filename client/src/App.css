@@ -1,0 +1,167 @@
+/* ============================= */
+/* GLOBAL STYLES */
+/* ============================= */
+
+body {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input,
+textarea {
+  outline: none;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #1e3a8a;
+  box-shadow: 0 0 0 1px #1e3a8a;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 8px;
+  text-align: left;
+}
+
+/* ============================= */
+/* PAGE LAYOUT */
+/* ============================= */
+
+.page-container {
+  padding: 30px;
+  background: #f4f6f8;
+  min-height: calc(100vh - 70px);
+}
+
+/* ============================= */
+/* NAVBAR */
+/* ============================= */
+
+.main-navbar {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* ============================= */
+/* NAV BUTTONS */
+/* ============================= */
+
+.nav-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.nav-btn {
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  white-space: nowrap;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Primary button (Register / Dashboard) */
+.nav-btn.primary {
+  background: #ffffff;
+  color: #1e3a8a;
+}
+
+.nav-btn.primary:hover {
+  background: #e5e7eb;
+}
+
+/* Secondary button (Status / Analytics) */
+.nav-btn.secondary {
+  background: #2563eb;
+  color: white;
+}
+
+.nav-btn.secondary:hover {
+  background: #1d4ed8;
+}
+
+/* Logout button */
+.nav-btn.danger {
+  background: #dc2626;
+  color: white;
+}
+
+.nav-btn.danger:hover {
+  background: #b91c1c;
+}
+
+.logout-btn {
+  min-width: 90px;
+  text-align: center;
+}
+
+/* ============================= */
+/* AUTH PAGES (Login / Signup) */
+/* ============================= */
+
+.auth-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container input,
+.auth-container select {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2563eb;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: #1d4ed8;
+}
